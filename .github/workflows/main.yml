@@ -1,0 +1,22 @@
+name: Node setup
+on: 
+  push:
+    branches: [main]
+jobs:
+    setup-node:
+      runs-on: ubuntu-latest
+
+      defaults:
+        run:
+          working-directory: backend
+
+      steps:
+          - name: checkout repo
+            uses: actions/checkout@v4
+
+          - name: setupt node
+            uses: actions/setup@v4
+
+            
+
+      
