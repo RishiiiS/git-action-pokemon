@@ -14,8 +14,8 @@ jobs:
           - name: checkout repo
             uses: actions/checkout@v4
 
-          - name: setupt node
-            uses: actions/setup@v4
+          - name: setup node
+            uses: actions/setup-node@v4
 
             
 
